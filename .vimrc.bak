@@ -137,8 +137,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='papercolor'
 
 
-nnoremap <silent> <buffer> <cr> :CSearchContext<cr>
-let g:EclimCSearchSingleResult='edit'
+
 
 
 
