@@ -1,3 +1,6 @@
+" To install vundle
+" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -75,9 +78,9 @@ if $TERM == "xterm-256color"
   set t_Co=256
 endif
 
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 
 set number
 
@@ -108,9 +111,10 @@ endif
 colorscheme solarized
 
 set tags=./tags;/
-set cursorline
+
+"set cursorline
 "set cursorcolumn
-hi CursorLine   cterm=NONE ctermbg=237 ctermfg=NONE guibg=darkred guifg=white
+"hi CursorLine   cterm=NONE ctermbg=237 ctermfg=NONE guibg=darkred guifg=white
 "hi CursorColumn cterm=NONE ctermbg=235 ctermfg=NONE guibg=darkred guifg=white
 "
 
@@ -139,6 +143,11 @@ let g:airline_theme='papercolor'
 
 nnoremap <silent> <buffer> <cr> :CSearchContext<cr>
 let g:EclimCSearchSingleResult='edit'
+let g:EclimFileTypeValidate = 0
+:nnoremap <Leader>a :CSearch -x all -p 
+":nnoremap <silent> <buffer> <Leader>a<cr> :CSearch -x all -p <cr>
 
 
-
+if &diff
+	    colorscheme murphy
+endif

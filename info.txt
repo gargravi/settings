@@ -1,0 +1,20 @@
+vim
+==========================================================================================
+
+Plugins
+-----------
+    Plugin 'VundleVim/Vundle.vim'                                             
+    Plugin 'tpope/vim-fugitive'                                               
+    Plugin 'rstacruz/sparkup'                                                 
+    Plugin 'https://github.com/scrooloose/nerdtree.git'                       
+    Plugin 'https://github.com/kien/ctrlp.vim.git'                            
+    Plugin 'https://github.com/scrooloose/nerdcommenter.git'                  
+    Plugin 'https://github.com/easymotion/vim-easymotion.git'                 
+    Plugin 'git://github.com/nathanaelkane/vim-indent-guides.git'             
+    Plugin 'https://github.com/vim-airline/vim-airline.git'                   
+    Plugin 'vim-airline/vim-airline-themes'                                   
+    Plugin 'https://github.com/altercation/vim-colors-solarized.git'           
+    
+    
+    
+==========================================================================================
